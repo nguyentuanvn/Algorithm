@@ -1,0 +1,5 @@
+434821,968,459,313,211
+
+Using recursive DFS may cause stack overflow problem. This can be solved by increasing stack reserve for the system.
+For Visual Studio:
+Go to Project Properties -> Configuration Properties -> Linker -> System. Change Stack Reserve Size to 80000000
